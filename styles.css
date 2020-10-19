@@ -1,0 +1,63 @@
+header {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  align-items: center;
+  background-color: rgb(95, 214, 204);
+}
+
+main {
+  display: block;
+}
+
+.welcome {
+  color: white;
+  letter-spacing: 5px;
+  font-size: 50px;
+  font-weight: lighter;
+  word-spacing: 10px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: black;
+}
+
+article {
+  width: 200px;
+  text-align: center;
+}
+
+.title-one {
+  border-color: rgb(56, 189, 233);
+}
+
+.title-two {
+  border-color:rgb(235, 158, 16);
+}
+
+.title-three {
+  border-color: rgb(141, 226, 226);
+}
+
+h2 {
+  padding-top: 40px;
+  font-size: 45px;
+  color: white;
+  border-top: 30px solid;
+  border-width: 25px;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    word-spacing: 20px;
+    letter-spacing: 10px;
+  }
+}
